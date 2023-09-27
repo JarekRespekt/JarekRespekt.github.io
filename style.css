@@ -40,6 +40,7 @@ body {
 
 .btnminus {
 	display: inline-block;
+	padding: 10px 20px;
 	border: none;
 	background: rgb(250, 55, 24);
 	border-radius: 10px;
