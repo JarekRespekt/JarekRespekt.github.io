@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	background: white;
+}
+
+.container {
+	max-width: 390рх;
+}
+
+.inner {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 200px 200px;
+}
+
+.img {
+	width: 150px;
+	height: 150px;
+}
+
+.item {
+	text-align: center;
+	position: relative;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	border: none;
+	background: rgb(248, 168, 24);
+	border-radius: 10px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	transition: background .4s linear;
+}
+
+.btn:active {
+	background: lightgreen;
+}
+
+.btnminus {
+	display: inline-block;
+	padding: 10px 20px;
+	border: none;
+	background: rgb(250, 55, 24);
+	border-radius: 10px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	transition: background .4s linear;
+}
+
+.btnminus:active {
+	background: mistyrose;
+}
+
+#count1 {
+    display: inline-block;
+    width: 20px; /* Розмір круга */
+    height: 20px; /* Розмір круга */
+    background-color: orange; /* Колір круга */
+    color: white; /* Колір тексту */
+    border-radius: 50%; /* Зробити форму круглою */
+    text-align: center; /* Вирівнювання тексту по горизонталі */
+    line-height: 20px; /* Вирівнювання тексту по вертикалі */
+    position: absolute; /* Для позиціонування в правому верхньому куті */
+    top: 5px; /* Відступ зверху */
+    right: 5px; /* Відступ справа */
+    font-size: 12px; /* Розмір шрифту */
+}
+
+.usercard {
+	text-align: center;
+}
+
+/*
+var(--tg-theme-bg-color)
+var(--tg-theme-text-color)
+var(--tg-theme-hint-color)
+var(--tg-theme-link-color)
+var(--tg-theme-button-color)
+var(--tg-theme-button-text-color)
+*/
