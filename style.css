@@ -38,7 +38,17 @@ body {
 	transition: background .2s linear;
 }
 
-.btn:hover {
+.btnminus {
+	display: inline-block;
+	border: none;
+	background: rgb(250, 55, 24);
+	border-radius: 10px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.btn:active {
 	background: lightgreen;
 }
 
