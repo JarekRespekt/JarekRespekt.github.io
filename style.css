@@ -38,6 +38,7 @@ body {
 
 .item {
 	text-align: center;
+	position: relative;
 }
 
 .btn {
