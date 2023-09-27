@@ -6,6 +6,21 @@ body {
 	background: white;
 }
 
+#count1 {
+    display: inline-block;
+    width: 20px; /* Розмір круга */
+    height: 20px; /* Розмір круга */
+    background-color: orange; /* Колір круга */
+    color: white; /* Колір тексту */
+    border-radius: 50%; /* Зробити форму круглою */
+    text-align: center; /* Вирівнювання тексту по горизонталі */
+    line-height: 20px; /* Вирівнювання тексту по вертикалі */
+    position: absolute; /* Для позиціонування в правому верхньому куті */
+    top: 5px; /* Відступ зверху */
+    right: 5px; /* Відступ справа */
+    font-size: 12px; /* Розмір шрифту */
+}
+
 .container {
 	max-width: 390рх;
 }
